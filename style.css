@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  font-family: "Roboto";
+  scroll-behavior: smooth;
+  --default-color: rgb(94, 24, 185);
+  --cinza: #6b7280;
+  --cinza-claro: #ececec;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+}
+
+.items-link {
+  margin-left: auto;
+}
+
+.items-link > a {
+  margin: 10px;
+}
+
+.main-div {
+  padding: 100px 400px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 30px;
+  color: var(--cinza);
+}
+
+#titulo2 {
+  font-size: 24px;
+}
+
+.principal {
+  display: flex;
+  padding-top: 100px;
+  column-gap: 15px;
+}
+
+.titulo-principal > h1 {
+  font-weight: 900;
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.titulo-principal > h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.titulo-principal > p {
+  color: var(--cinza);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagem-principal {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imagem-principal > img {
+  height: 380px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.habilidades {
+  color: var(--cinza);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.titulo-principal {
+  width: 50%;
+}
+
+.habilidades-descricao {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.habilidades-descricao > p {
+  color: var(--cinza);
+}
+
+#div.habilidades {
+  scroll-behavior: smooth;
+}
+
+.experiencias-pai {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.card-pai {
+  padding: 5px 25px;
+  background-color: var(--cinza-claro);
+  border-radius: 15px;
+  transition: all 300ms ease-in-out;
+}
+
+.card-pai:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-texto > h3 {
+  margin-bottom: 0;
+}
+
+.card-texto > p {
+  margin: 5px 0;
+}
+
+.card-texto p:nth-child(3) {
+  color: red;
+}
+
+.projetos {
+  padding: 90px 0;
+}
+
+.projetos-conteudo {
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-pai {
+  background: var(--cinza-claro);
+  padding: 25px;
+  border-radius: 15px;
+  transition: all 300ms ease-in-out;
+}
+
+.conteudo-pai:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.objetivos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.objetivos > div > p {
+  text-align: center;
+  color: var(--cinza);
+}
+
+.botao-email {
+  display: flex;
+  align-items: center;
+  background-color:rgb(94, 24, 185);
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 300ms ease-in-out;
+  color: white;
+  margin-top: 56px;
+}
+
+.botao-email > h3 {
+  color: inherit;
+  margin: 0 10px 0 0;
+}
+
+.botao-email > svg {
+  fill: white; /* tentar com inherit */
+}
+
+.botao-email:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: red;
+}
+
+.footer {
+  padding-top: 81px;
+}
+
+.footer > div > p {
+  color: var(--cinza);
+  text-transform: uppercase;
+}
+
+.links-footer {
+  display: flex;
+  column-gap: 20px
+}
+
